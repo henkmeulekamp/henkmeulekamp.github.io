@@ -16,6 +16,6 @@ Learn more and contribute on [GitHub](https://github.com/poole/poole).
 
 ## Contact
 
-Have questions or suggestions? Feel free to [email](mailto:henk@meulekamp.net) or [ask me on Twitter](https://twitter.com/henkmeulekamp).
+Have questions or suggestions? Feel free to [email](mailto:henk@meulekamp.net) or [ask me on Twitter](https://twitter.com/hjmeulekamp).
 
 Thanks for reading!
