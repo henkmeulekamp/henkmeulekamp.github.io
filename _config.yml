@@ -9,7 +9,7 @@ title:               Serverside Developer
 tagline:             The Jekyll Butler
 url:                 http://serversidedeveloper.com
 paginate:            1
-baseurl:             "serversidedeveloper.com"
+baseurl:             ""
 
 # Assets
 #
