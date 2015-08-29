@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Serverside Developer
-tagline:             The Jekyll Butler
+tagline:             
 url:                 http://serversidedeveloper.com
 paginate:            1
 baseurl:             ""
