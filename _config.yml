@@ -1,35 +1,12 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+markdown: rdiscount
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
 
-# Setup
-title:               Serverside Developer
-tagline:             
-url:                 http://serversidedeveloper.com
-paginate:            1
-baseurl:             ""
-
-name: HJ Meulekamp
-description: Testing a different blogengine
-twitter: hjmeulekamp
-
-
-# About/contact
-author:
-  name:              HJ Meulekamp
-  url:               https://twitter.com/henkmeulekamp
-  email:             henk@meulekamp.net
-
-# Custom vars
-version:             0.0.1
-github:
-  repo:              https://github.com/henkmeulekamp/henkmeulekamp.github.io
-
-kramdown:
-  input: GFM
-  
 gems:
   - jekyll-sitemap
-  
+
+name: HJ Meulekamp
+url: http://serversidedeveloper.com
+description: Testing another blog engine
+twitter: hjmeulekamp
