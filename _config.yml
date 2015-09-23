@@ -28,3 +28,7 @@ author:
 version:             0.0.1
 github:
   repo:              https://github.com/henkmeulekamp/henkmeulekamp.github.io
+
+kramdown:
+  input: GFM
+  

@@ -13,7 +13,7 @@ You can setup an action there which will be called before the request is done an
   
 I'm using it for setting the UserAgent, but basically you can set any header (even setup the authentication headers):    
   
-```   
+```csharp
 var client = new JsonServiceClient
 
 {
