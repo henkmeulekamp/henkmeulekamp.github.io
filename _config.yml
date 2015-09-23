@@ -8,7 +8,7 @@ url:         "http://serversidedeveloper.com"
 date_format: "%b %-d, %Y"
 
 # Google services
-google_analytics:
+google_analytics: UA-33602183-1
 google_verification:
 
 # Optional features
