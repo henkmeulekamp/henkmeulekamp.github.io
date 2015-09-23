@@ -29,10 +29,11 @@ Thats all!
 Reference, the powershell script:  
   
 ```powershell
+  
 param (
-    [string]$appname = "<your-newrelic-appname>",
-    [string]$appid = "<your-newrelic-appid>",
-    [string]$apiKey = "<your-newrelic-api-key>"
+    [string]$appname = "your-newrelic-appname",
+    [string]$appid = "your-newrelic-appid",
+    [string]$apiKey = "your-newrelic-api-key"
  )
 
 function Execute-HTTPPostCommand() {
@@ -47,7 +48,7 @@ function Execute-HTTPPostCommand() {
     $webRequest.ServicePoint.Expect100Continue = $false
     $webRequest.Headers.Add("x-api-key", $key);
     $webRequest.Method = "POST"
-	
+	  
     $requestStream = $webRequest.GetRequestStream()
     $requestStream.Write($PostStr, 0,$PostStr.length)
     $requestStream.Close()
