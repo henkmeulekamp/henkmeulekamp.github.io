@@ -11,12 +11,10 @@ url:                 http://serversidedeveloper.com
 paginate:            1
 baseurl:             ""
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+name: HJ Meulekamp
+description: Testing a different blogengine
+twitter: hjmeulekamp
+
 
 # About/contact
 author:
@@ -31,4 +29,7 @@ github:
 
 kramdown:
   input: GFM
+  
+gems:
+  - jekyll-sitemap
   

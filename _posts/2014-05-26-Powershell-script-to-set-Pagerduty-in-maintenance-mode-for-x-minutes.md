@@ -5,6 +5,7 @@ title: Powershell script to set Pagerduty in maintenance mode for x minutes via 
   
 After the previous quick post on notifying NewRelic of a deployment using a powershell script I setup a second script to inform Pagerduty to set certain alerting services into maintenance mode. The idea is the same; an easy on the fly changeable powershell script which can be executed from batch deploy scripts and will perform an HTTP POST to Pagerduty REST Api using some command-line parameters.
   
+
 The steps:  
 1. Get the powershell script from github gist (https://gist.github.com/henkmeulekamp/3441f937caf991d6500b)
 2. Get your pagerduty API token, which is [described here](https://support.pagerduty.com/hc/en-us/articles/202829310-Generating-an-API-Key)
