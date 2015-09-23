@@ -1,12 +1,59 @@
-markdown: rdiscount
-permalink: /posts/:title
-rdiscount:
-  extensions: [smart]
+# Site settings
+title:       HJ Meulekamp
+email:       henk@meulekamp.net
+author:      HJ Meulekamp
+description: "Another test, another blog engine"
+baseurl:     ""
+url:         "http://serversidedeveloper.com"
+date_format: "%b %-d, %Y"
 
-gems:
-  - jekyll-sitemap
+# Google services
+google_analytics:
+google_verification:
 
-name: HJ Meulekamp
-url: http://serversidedeveloper.com
-description: Testing another blog engine
-twitter: hjmeulekamp
+# Optional features
+animated:             false
+show_related_posts:   false
+show_post_footers:    false
+show_social_icons:    true
+ajaxify_contact_form: false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+github_username: henkmeulekamp
+bitbucket_username: henkmeulekamp
+stackoverflow_id:
+twitter_username: hjmeulekamp
+google_plus_id:
+linkedin_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: true
+share_text: 'Share this post!'
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: true
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  compressed: true
