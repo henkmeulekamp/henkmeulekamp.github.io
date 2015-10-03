@@ -14,14 +14,9 @@ The AWS Well-Architected Framework is based around four pillars:
 - Performance Efficiency
 - Cost Optimization
   
-Its a 56 page document (32 readable, other 20 something appendixes) and easy to read. It is very usefull when planning on setting up a larger
-solution in the AWS cloud. Its mostly setting up some principals/ideas and questions to ask and then explaining 
-which products and services in the AWS solution can help in those cases.
-  
-Would I read it when not having anything in the AWS Cloud? Maybe not, but I do believe AWS (With Azure)
-is currently a frontrunner in the new way of hosting, where IaaS is completely automated and
-available for anyone with just creditcard. Some of the ideas and questions will be applicable for 
-any developer/engineer responsible for running larger software solutions.
+Its a 56 page document (32 readable, other 20 something appendixes) and easy to read. It is very usefull when planning on setting up a larger solution in the AWS cloud. Its mostly setting up some principals/ideas and questions to ask and then explaining which products and services in the AWS solution can help in those cases.
+
+Would I read it when not having anything in the AWS Cloud? Maybe not, but I do believe AWS (With Azure) is currently a frontrunner in the new way of hosting, where IaaS is completely automated and available for anyone with just creditcard. Some of the ideas and questions will be applicable for any developer/engineer responsible for running larger software solutions.
   
 Interesting ideas:  
   
