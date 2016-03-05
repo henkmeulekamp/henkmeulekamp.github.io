@@ -10,7 +10,7 @@ Not sure if it is any better then VS2015 or VS Code. Doing some first tests now 
   
 Just wanted to post the GIT ignore inclusions here as a reference:  
 `#RiderC#`  
-`.idea//`  
+`.idea/`  
 `*.*.iml`  
   
 This should prevent .idea/ folder content and *.*.iml files to be added to your GIT repo. These two file/folder types are added to the repository folder as soon as you open up a SLN file in Project Rider IDE.
