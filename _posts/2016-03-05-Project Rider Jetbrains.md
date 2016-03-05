@@ -8,7 +8,7 @@ Project Rider is a new C# IDE based on ReSharper and the IntelliJ platform.
 The EAP is for download if you signup on the Jetbrains site. First try outs indicate its a nice C# IDE. 
 Not sure if it is any better then VS2015 or VS Code. Doing some first tests now and it does work good on console apps. It opens SLN files, compiles console apps and runs them in debug mode. It did lockup completely on intelisense when trying to add Linq methods to a dynamic type object instance.
   
-Just wanted to post the GIT ignore inclusions here as a reference:
+Just wanted to post the GIT ignore inclusions here as a reference:  
 ```
 #RiderC#
 .idea/
