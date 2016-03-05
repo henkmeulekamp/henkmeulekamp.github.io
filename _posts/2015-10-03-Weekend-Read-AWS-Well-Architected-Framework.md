@@ -2,7 +2,7 @@
 layout: post
 title: Weekend Read: AWS Well Architected Framework
 ---
-
+  
 AWS Solution architects published a guidance document this week on how to create well architected solutions in the AWS cloud.
   
 You can find the [pdf here](http://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
@@ -33,6 +33,7 @@ Interesting ideas:
 > "Treat the database as code to allow it to evolve over time rather than  
 > be a one-time fixed decision. Use test data to identify which database   
 > solution matches each workload best"  
+  
   
   
  
