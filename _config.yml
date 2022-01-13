@@ -4,7 +4,7 @@ email:       henk@meulekamp.net
 author:      HJ Meulekamp
 description: "Another test, another blog engine"
 baseurl:     ""
-url:         "http://serversidedeveloper.com"
+url:         "https://serversidedeveloper.com"
 date_format: "%b %-d, %Y"
 
 # Google services
